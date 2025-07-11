@@ -85,6 +85,22 @@ namespace ConsoleApp1
             //d.Display();
             #endregion
 
+
+            #region q7: -Override All System. Object Members [To String(), Equals(),GetHashCode() ] .
+
+
+            Duration d1 = new Duration(1, 30, 25);
+            Duration d2 = new Duration(1, 30, 25);
+            Duration d3 = new Duration(6, 0, 0);
+
+
+
+            Console.WriteLine(d1.ToString());           
+            Console.WriteLine(d1.Equals(d2));           
+            Console.WriteLine(d1.Equals(d3));           
+            Console.WriteLine(d1.GetHashCode() == d2.GetHashCode());
+            #endregion
+
         }
     } 
 }
