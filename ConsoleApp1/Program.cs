@@ -53,7 +53,7 @@ namespace ConsoleApp1
             #endregion
 
 
-            #region q4 : a) Create a base class named Employee with method That Work as it prints    "Employee is  working". b) Create a derived class named Manager that overrides the Work method to print "Manager is managing".
+            #region q4: a) Create a base class named Employee with method That Work as it prints    "Employee is  working". b) Create a derived class named Manager that overrides the Work method to print "Manager is managing".
 
             //Employee employee = new Employee();
             //employee.Work();
@@ -62,6 +62,21 @@ namespace ConsoleApp1
             //manager.Work();
 
             #endregion
+
+
+            #region q5: a) Create a base class BaseClass with a virtual method DisplayMessage that prints  "Message from BaseClass". b) Create a derived class DerivedClass1 that overrides the DisplayMessage method using the override keyword.C) Create another derived class DerivedClass2 that hides the DisplayMessage method using the new keyword. Then explain the difference between using override and new (using binding behavior)
+
+            //BaseClass baseClass = new BaseClass();  
+            //baseClass.DisplayMessage();
+
+
+            //BaseClass derivedClass1 = new DerivedClass1();
+            //derivedClass1.DisplayMessage(); 
+
+
+            //BaseClass derivedClass2 = new DerivedClass2();
+            //derivedClass2.DisplayMessage();
+            #endregion
         }
-}
+    }
 }
