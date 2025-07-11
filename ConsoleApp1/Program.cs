@@ -19,7 +19,8 @@ namespace ConsoleApp1
             #endregion
 
 
-            #region q2:
+            #region q2: Create a class named Rectangle with the following constructors:
+
 
             //Rectangle rectangle = new Rectangle();
 
@@ -33,6 +34,24 @@ namespace ConsoleApp1
 
 
 
+            #endregion
+
+
+
+
+            #region q3: Define a class Complex Number that represents a complex number with real and imaginary parts. *Note: Overload the +, - operator to add and subtract two complex numbers.
+
+
+            ComplexNumber c1 = new ComplexNumber(8, 4);
+            ComplexNumber c2 = new ComplexNumber(3, -2);
+
+            ComplexNumber sum = c1 + c2;
+            ComplexNumber diff= c1 - c2;
+
+            Console.WriteLine($"c1 : {c1}");
+            Console.WriteLine($"c2 : {c2}");
+            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Difference: {diff}");
             #endregion
         }
     }
