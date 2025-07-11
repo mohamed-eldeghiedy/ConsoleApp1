@@ -83,4 +83,22 @@
     }
 
 
+
+    public class Duration
+    {
+        public int Hours { get; set; }
+        public int Minutes { get; set; }
+        public int Seconds { get; set; }
+        public Duration(int hours = 0, int minutes = 0, int seconds = 0)
+        {
+            Hours = hours;
+            Minutes = minutes;
+            Seconds = seconds;
+        }
+        public void Display()
+        {
+            Console.WriteLine($"Duration: {Hours}h {Minutes}m {Seconds}s");
+        }
+    }
+
 }

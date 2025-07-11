@@ -77,6 +77,14 @@ namespace ConsoleApp1
             //BaseClass derivedClass2 = new DerivedClass2();
             //derivedClass2.DisplayMessage();
             #endregion
+
+
+            #region q6: Define Class Duration To include Three Attributes Hours, Minutes and Seconds.
+
+            //Duration d = new Duration(3, 55, 20);
+            //d.Display();
+            #endregion
+
         }
-    }
+    } 
 }
